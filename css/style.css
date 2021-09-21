@@ -1,4 +1,8 @@
 /* For fixed menu this adds block 60 pixels thick */
+html {
+    scroll-behavior: smooth;
+  }
+
 body::before{
     display: block;
     content: '';
